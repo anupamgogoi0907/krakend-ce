@@ -53,3 +53,12 @@ Or, if you don't have or don't want to install `go`, you can build it using the 
 ```
 make docker_build
 ```
+
+
+# Guide on Syncing with upstream.
+```
+git remote -v
+git remote add upstream https://github.com/devopsfaith/krakend-ce.git
+git remote -v
+
+```
